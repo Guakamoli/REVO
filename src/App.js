@@ -17,7 +17,7 @@ function App() {
   const [interval, setInterval] = useState(1000);
   const TWITTER_URL = "https://twitter.com/R3VO_XYZ";
   const CAME_URL = "https://www.instagram.com/r3vo_xyz/";
-  const DISCORD_URL = "https://discord.gg/KufQbNbQk7";
+  const DISCORD_URL = "https://discord.gg/WMy2JnamqK";
   const SIG = 'https://sig.com/';
   useEffect(() => {
    
