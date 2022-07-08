@@ -91,7 +91,7 @@
   .titleFont {
     z-index: 2;
     @media screen and (min-width: 600px) {
-      width: 680px;
+      width: 730px;
       height: 72px;
       font-size: 20px;
       font-family: Qualy-Bold;
@@ -103,9 +103,9 @@
       opacity: 0.6;
     }
     @media screen and (max-width: 600px) {
-      width: 337px;
+      width: 341px;
       height: 120px;
-      font-size: 17px;
+      font-size: 16px;
       font-family: Qualy-Bold;
       font-weight: bold;
       color: #ffffff;
@@ -161,13 +161,32 @@
       @media screen and (max-width: 600px) {
         margin-right: 22px;
       }
+      @media screen and (min-width: 600px) {
+        margin-right: 30px;
+      }
     }
     .twitterLogo {
       width: 27px;
       height: 22px;
       margin-right: 25px;
       @include buttonHover;
-      
+      @media screen and (max-width: 600px) {
+        margin-right: 22px;
+      }
+      @media screen and (min-width: 600px) {
+        margin-right: 30px;
+      }
+    }
+    .tiktokLogo {
+      width: 20px;
+      height: 23px;
+      @include buttonHover;
+      @media screen and (max-width: 600px) {
+        margin-right: 22px;
+      }
+      @media screen and (min-width: 600px) {
+        margin-right: 30px;
+      }
     }
     .playingImg {
       width: 26px;

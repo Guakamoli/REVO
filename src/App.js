@@ -17,6 +17,7 @@ function App() {
   const [interval, setInterval] = useState(1000);
   const TWITTER_URL = "https://twitter.com/R3VO_XYZ";
   const CAME_URL = "https://www.instagram.com/r3vo_xyz/";
+  const TIKTOK_URL= "https://www.tiktok.com/@r3vo_xyz"
   const DISCORD_URL = "https://discord.gg/WMy2JnamqK";
   const SIG = 'https://sig.com/';
   useEffect(() => {
@@ -129,9 +130,7 @@ function App() {
           <div className={styles.title}></div>
           <div className={styles.titleFont}>
             <text style={{ width: 606 }}>
-              REVO IS A WEB 3.0 VIDEO SHARING SOCIAL NETWORKING SERVICE THAT IS
-              OWNED BY COMMUNITY. 100% OF OUR INCOME WILL BE GIVEN BACK TO OUR
-              USERS AND CREATORS.
+            RΞVO is a Social - Fi video NFT platform that enables users to watch, create and invest in video NFTs while socializing with fans and friends. RΞVO is 100% owned by community. All of our income will be given back to our users and creators.
             </text>
           </div>
           <img src="./image/joinUs@2x.png" className={styles.joinUs} onClick={()=>{jumpUrl(DISCORD_URL)}}></img>
@@ -147,6 +146,11 @@ function App() {
               src="./image/cameoLogo@2x.png"
               className={styles.cameoLogo}
               onClick={()=>{jumpUrl(CAME_URL)}}
+            ></img>
+            <img
+              src="./image/tiktokLogo@2x.png"
+              className={styles.tiktokLogo}
+              onClick={()=>{jumpUrl(TIKTOK_URL)}}
             ></img>
               <div onClick={musicPlaying} style={{opacity: isMobile ? 1 : 0}} >
               <img src="./image/mute@2x.png" className={styles.muteImg} style={{display:mute ? 'flex' :'none'}}/>
